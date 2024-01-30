@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- The doctype’s purpose is to tell the browser what version of HTML it should use to render the document -->
+<html lang="en">
+<!-- This is what’s known as the root element of the document, meaning that every other element in the document will be a descendant of it. -->
+	<head>
+		<!-- where we put important meta-information about our webpages, and stuff required for our webpages to render correctly in the browser. Inside the <head>, we should not use any element that displays content on the webpage. -->
+		<meta charset="utf-8">
+		<!-- Setting the encoding is very important because it ensures that the webpage will display special symbols and characters from different languages correctly in the browser -->
+		<title>My First Webpage</title>
+	</head>
+
+	<body>
+		<!-- This is where all the content that will be displayed to users will go - the text, images, lists, links, and so on -->
+		<h1>Homepage</h1>
+		<a href="https://www.theodinproject.com/about">click me</a>
+		<a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">click me 2</a>
+
+		<h1>Homepage</h1>
+		  <a href="https://www.theodinproject.com/about">click me</a>
+
+		  <a href="pages/about.html">About</a>
+		<!-- The noopener value prevents the opened link from gaining access to the webpage from which it was opened --> 
+		<!-- The noreferrer value prevents the opened link from knowing which webpage or resource has a link (or ‘reference’) to it. It also includes the noopener behaviour and thus can be used by itself as well. --> 
+		<!-- The prevention of access that is caused by noopener prevents phishing attacks where the opened link may change the original webpage to a different one to trick users -->
+		<ol>
+			<li>calan</li>
+			<li>jian</li>
+			<li>az</li>
+		</ol>
+		<ul>
+			<li>jian</li>
+			<li>az</li>
+			<li>calan</li>
+		</ul>
+	</body>
+</html>
